@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Personal data</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<script>
+  //radar
+  var ctxR = document.getElementById("radarChart").getContext('2d');
+  var myRadarChart = new Chart(ctxR, {
+    type: 'radar',
+    data: {
+      labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+      datasets: [{
+          label: "My First dataset",
+          data: [65, 59, 90, 81, 56, 55, 40],
+          backgroundColor: [
+            'rgba(105, 0, 132, .2)',
+          ],
+          borderColor: [
+            'rgba(200, 99, 132, .7)',
+          ],
+          borderWidth: 2
+        },
+        {
+          label: "My Second dataset",
+          data: [28, 48, 40, 19, 96, 27, 100],
+          backgroundColor: [
+            'rgba(0, 250, 220, .2)',
+          ],
+          borderColor: [
+            'rgba(0, 213, 132, .7)',
+          ],
+          borderWidth: 2
+        }
+      ]
+    },
+    options: {
+      responsive: true
+    }
+  });
+
+</script>
+</head>
+<body style="background:grey;">
+<div class="container" style="background:white;">
+<hr>
+
+<div class="row">
+  <div class="col-8">
+  
+  <hr><b>Name Surname</b>
+  <hr><b>Workplace</b>
+  <hr><b>Study</b>
+  <hr><b>About</b> - An autobiography that many middle and high school students read every year is “Night” by Elie Wiesel. His story is also a memoir, covering his teen years as he and his family went from the comfort of their own home to being forced into a Jewish ghetto with other families, before ending up in a Nazi prison camp. His book is not that long, but the details and description he uses brings to life the horrors of Hitler’s reign of terror in Germany during World War II. Students also read “The Diary of Anne Frank,” another type of autobiography that shows a young Jewish girl’s daily life while hiding from the Nazis to her eventual capture and death in a German camp. Both books are meant to remind us to not be indifferent to the world’s suffering and to not allow hate to take over.
+  </div>
+  <div class="col-4"><img src="images/avatar1.png"></div>
+</div>
+<hr>
+<div class="row">
+<div class="col-4">
+<img src="images/1.png">
+</div>
+<div class="col-4">
+<img src="images/2.png">
+</div>
+<div class="col-4">
+<img src="images/3.png">
+</div>
+<hr>
+
+
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	</body>
+	</html>
